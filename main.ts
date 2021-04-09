@@ -3,6 +3,7 @@ enum Types {
     Celsius,
     Kelvin,
 }
+//% color=#000000 weight=0 icon="\uf2d6" block="Temperature Converting"
 namespace temp {
     //% block="convert $temperature from $_type to $to_type"
     export function convert (_type: Types, temperature: number, to_type: Types) {
